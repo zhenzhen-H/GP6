@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./init.css">
+    <style>
+      .imgList{
+          /* overflow: hidden; */
+          /* width:1380px; */
+          height:350px;
+          position: relative;
+      } 
+      li{
+          position: absolute;
+          float:left;
+          width:1250px;
+          height:350px;
+          margin:0 auto;
+      } 
+      img{
+        width:1250px;
+        height:350px; 
+      }
+
+    </style>
+</head>
+<body>
+    <script src="./libs/jquery-3.3.1.js"></script>
+    <script src="./libs/move.js"></script>
+    <div>
+        <button id="prev">prev</button>
+        <button id="next">next</button>
+        <button class="slide">slide</button>
+        <button class="fade">fade</button>
+        <ul class="imgList">
+            <li><img src="https://img.zcool.cn/community/01db6d5b05a0cfa801218cf4e639d8.png@1380w"></li>
+            <li><img src="https://img.zcool.cn/community/01663f5b05a0afa801218cf48784a7.png@1380w"></li>
+            <li><img src="https://img.zcool.cn/community/011ea15b05a0aea801209a85c78074.png@1380w"></li>
+        </ul>
+
+    </div>
+    <script src="./2.js"></script>
+
+</body>
+</html>
